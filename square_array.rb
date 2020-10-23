@@ -1,3 +1,9 @@
+
+
+array = [1, 2, 3]
+
 def square_array(array)
-  # your code here
+  answer = []
+  array.each{|num| answer.push(num * num)}
+  return answer
 end
